@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Page Background Colors */
+.homepage {
+    background-color: #e2e2e2; 
+}
+
+.about {
+    background-color: #e0f7fa; 
+}
+
+.resume {
+    background-color: #ffe0b2; 
+}
+
+.contact {
+    background-color: #ffe2b2; 
+}
+
+/* Header Styles */
+header {
+    background-color: rgb(20, 20, 125);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+    margin: 20px;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(20, 20, 125); 
+    font-size: 20px;
+}
+
+/* Homepage Specific Styles */
+#home p {
+    color: rgb(100, 100, 255); 
+}
+
+/* About Me Page Specific Styles */
+#about h2 {
+    color: rgb(0, 18, 180); 
+}
+
+#about p:first-of-type {
+    color: rgb(0, 164, 193); 
+}
+
+#about p:last-of-type {
+    color: rgb(32, 148, 166); 
+}
+
+/* Contact Form Styles */
+#contact label {
+    color: #1e88e5; 
+    font-weight: bold;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    background-color: #dedede; 
+    color: #1e88e5; 
+    border: 2px solid #1e88e5; 
+    padding: 10px;
+    width: calc(100% - 22px); 
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+#contact input[type="submit"] {
+    background-color: #1e88e5; 
+    color: white; 
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(20, 20, 125); 
+    color: white; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
