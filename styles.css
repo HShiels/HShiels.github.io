@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Page Background Colors */
+.homepage {
+    background-color: #e2e2e2; /* Light gray for Homepage */
+}
+
+.about {
+    background-color: #e0f7fa; /* Light cyan for About Me */
+}
+
+.resume {
+    background-color: #ffe0b2; /* Light orange for Resume */
+}
+
+.contact {
+    background-color: #ffe2b2; /* Light peach for Contact Me */
+}
+
+/* Header Styles */
+header {
+    background-color: rgb(20, 20, 125); /* Header color */
+    color: white; /* Header text color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+    margin: 20px;
+    background-color: rgb(240, 240, 240); /* Navigation bar color */
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(20, 20, 125); /* Navigation link color */
+    font-size: 20px;
+}
+
+/* Homepage Specific Styles */
+#home p {
+    color: rgb(100, 100, 255); /* Differently colored paragraph */
+}
+
+/* About Me Page Specific Styles */
+#about h2 {
+    color: rgb(0, 18, 180); /* Differently colored heading for your name */
+}
+
+#about p:first-of-type {
+    color: rgb(0, 164, 193); /* Differently colored brief introduction */
+}
+
+#about p:last-of-type {
+    color: rgb(32, 148, 166); /* Differently colored hobby paragraph */
+}
+
+/* Contact Form Styles */
+#contact label {
+    color: #1e88e5; /* Label color */
+    font-weight: bold;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    background-color: #dedede; /* Input field background color */
+    color: #1e88e5; /* Input field text color */
+    border: 2px solid #1e88e5; /* Border color */
+    padding: 10px;
+    width: calc(100% - 22px); /* Full width minus padding */
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+#contact input[type="submit"] {
+    background-color: #1e88e5; /* Submit button background color */
+    color: white; /* Submit button text color */
+    padding: 10px 15px;
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    background-color: #fff; /* Background color for sections */
+    border-radius: 8px; /* Rounded corners for sections */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(20, 20, 125); /* Footer color */
+    color: white; /* Footer text color */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
